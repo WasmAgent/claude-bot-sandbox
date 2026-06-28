@@ -12,6 +12,9 @@ describe("math", () => {
   it("multiply by zero", () => assert.equal(multiply(0, 5), 0));
   it("multiply negative by positive", () => assert.equal(multiply(-2, 3), -6));
   it("divide normal case", () => assert.equal(divide(10, 2), 5));
+  it("divide negative by negative", () => assert.equal(divide(-4, -2), 2));
+  it("divide negative by positive", () => assert.equal(divide(-4, 2), -2));
+  it("divide positive by negative", () => assert.equal(divide(4, -2), -2));
   it("divide by zero throws", () => {
     assert.throws(() => divide(5, 0), { message: 'division by zero' });
   });
