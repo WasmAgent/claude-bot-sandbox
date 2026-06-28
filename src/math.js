@@ -7,5 +7,5 @@ export function subtract(a, b) {
 }
 
 export function multiply(a, b) {
-  return a * b;
+  return Math.round(a * b * 1e10) / 1e10;
 }
