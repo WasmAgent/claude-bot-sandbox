@@ -1,0 +1,11 @@
+{
+  "name": "claude-bot-sandbox",
+  "version": "0.1.0",
+  "description": "Sandbox for Claude Code GLM bot validation",
+  "type": "module",
+  "scripts": {
+    "test": "node --test src/*.test.js",
+    "lint": "echo 'lint ok'",
+    "build": "echo 'build ok'"
+  }
+}
